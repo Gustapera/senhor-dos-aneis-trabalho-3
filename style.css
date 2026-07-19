@@ -1,0 +1,20 @@
+body{
+    background:black;
+    color:white;
+    font-family:Arial;
+}
+
+header{
+    background:#9b7b1d;
+    padding:20px;
+}
+
+h3{
+    background:#355b37;
+    padding:8px;
+}
+
+nav a{
+    color:purple;
+    margin-right:8px;
+}
