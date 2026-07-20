@@ -1,20 +1,22 @@
+#titulo_principal {
+    background-color: #DAA520;
+    color: white;
+}
+
+.titulo_secundario {
+    background-color: #228B22;
+    color: white;
+}
+
 body{
-    background:black;
-    color:white;
-    font-family:Arial;
+    /*topografia CSS*/
+    background-color: rgb(0, 0, 0);/*cor de fundo*/
+    color: rgb(255, 255, 255); /*cor da fonte*/
+    font-family: "roboto" , sans-serif; /*fonte do texto*/
+    font-size: 16px;  /*tamanho da fonte - px/em/rem*/
+
 }
 
-header{
-    background:#9b7b1d;
-    padding:20px;
-}
-
-h3{
-    background:#355b37;
-    padding:8px;
-}
-
-nav a{
-    color:purple;
-    margin-right:8px;
+#layout{
+    display: flex;
 }
