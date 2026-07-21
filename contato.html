@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>filme O senhor dos aneis</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/espada.ico">
+</head>
+
+<body>
+    <header id="titulo_principal">
+        <h1>O senhor Dos Aneis</h1>
+        <h2>Uma das Trilogias Mais Famosas Do Cinema</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sinopse.html">Sinopse</a>
+            <a href="imagem.html">Imagem do filme</a>
+            <a href="personagens.html">Personagens principais</a>
+            <a href="informacoes.html">Informacoes do filme</a>
+            <a href="ordem.html">Ordem dos filmes</a>
+            <a href="curiosidades.html">Curiosidades</a>
+            <a href="impacto.html">Impacto cultural</a>
+            <a href="#conclusao.html">Conclusao</a>
+            <a href="contato.html">Contato</a>
+        
+        </nav>
+    </header>
+
+    <h2 class="titulo_secundario">Entre em contato:</h2>
+    <form action="processa.php" method="get" autocomplete="off">
+          <label for="nomepessoa">Nome:</label>
+          <input type="text" name="nomepessoa" id="nomepessoa" minlength="3"
+          maxlength="15" placeholder="informe seu nome"><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="E-mail"><br><br>
+
+          <label for="ano"> Ano de nascimento:</label>
+          <input type="number" id="ano" name="ano" max="2026" min="19000"
+        placeholder="Informe ano de nascimento"><br><br>
+           
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="Telefone" id="telefone" placeholder="Informe seu telefone"><br><br>
+        
+        <label for="github">Informe seu github:</label>
+        <input type="url" name="github" id="github" placeholder="Informe seu github"><br><br>
+
+        <label for="senha">Informe sua senha:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        <label for="arquivo">Anexe um arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo"><br><br>
+
+        <label for="cor">Escolha uma cor:</label>
+        <input type="color" id="cor" name="cor"><br><br>
+
+        <fieldset>
+         <legend>Campos de tempo</legend>
+         <label for="data">Informo a data</label>
+         <input type="date" name="data" id="data"><br><br>
+         
+         <label for="mes">Informe o mes</label>
+         <input type="month" name="mes" id="mes"><br><br>
+
+
+        <label for="semana">Informe a semana</label>
+         <input type="week" name="semana" id="semana"><br><br>
+
+        <label for="hora">Informe a hora:</label>
+         <input type="time" name="hora" id="hora"><br><br>
+
+        <label for="datahora">Data e hora atual</label>
+         <input type="datetime-local" name="datahora" id="datahora"><br><br>
+        </fieldset>
+
+
+        <label for="pesquisa">pesquisa</label>
+         <input type="search" name="pesquisa" id="semana" name="pesquisa"><br><br>
+        
+        <label for="descricao">Informe aqui o que você gosta nos filmes;</label>
+         <textarea cols="30" rows="10" name="descricao" id="descricao"></textarea><br><br>
+
+        </fieldset>
+         <legend>Qual seu filme favorito?</legend>
+         <label for="filme1" ><input type="radio" name="filme" id="filme1" value="filme1">filme 1</label>
+      
+         <label for="filme2" ><input checked type="radio" name="filme" id="filme2" value="filme2">filme 2</label>
+
+         <label for="filme3" ><input type="radio" name="filme" id="filme3" value="filme1
+            3">filme 3</label>
+         </fieldset><br><br>
+
+         label for="nivel1">Escolha o nivel</label>
+         <input type="range" max="10" min="1"id="nivel" name="nivel">
+
+         <select id="lista_suspensa" name="lista">
+            <optgroup label="Teste de legenda no combobox">
+               <option value="teste 1 ">Teste 1</option>
+               <option value="teste 2 ">Teste 2</option>
+               <option value="teste 3 ">Teste 3</option>
+            </optgroup>
+
+        <optgroup label="Teste de legenda no combobox 2">
+               <option value="teste 4 ">Teste 4</option>
+               <option value="teste 5 ">Teste 5</option>
+               <option value="teste 6 ">Teste 6</option>
+            </optgroup>
+         </select><br><br>
+
+         <fieldset>
+            <legend> Desenvolvimento para internet</legend>
+            <label><input type="checkbox" name="php" value="php">PHP</label>
+            <label><input type="checkbox" name="htm15" value="htm15">HTML5</label>
+            <label><input type="checkbox" name="css" value="css">CSS</label>
+            <label><input type="checkbox" name="js" value="js">JAVASCRIPT</label>
+         </fieldset><br><br>
+
+         <input type="text" id="busca_datalist" list="paises">
+         <datalist id="paises">
+                 <option>BRASIL</option>
+                 <option>FRANÇA</option> 
+                 <option>ARGENTINA</option> 
+                 <option>Alemanha</option>
+                 <option>Inglaterra</option>
+                 <option>espanha</option>
+         </datalist><br><br>
+ 
+         <audio controls muted autoplay loop>
+               <source src="audio/musica.mp3" type="audio/mp3">
+                Navegador nao é compativel para executar audio!
+         </audio><br><br>
+
+         <video controls autoplay loop poster="">
+            <source src="videos/videoteste.mp4" type="video/mp4">
+         </video><br><br>
+         
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mRvF1Lte50c?si=oyKwMWxB1-8gms6t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.498287891094!2d-53.478539!3d-24.949156000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f3d15547bda185%3A0xd0cbc7fb7cc4a1a6!2sUNIPAR%20-%20Universidade%20Paranaense%20-%20Cascavel!5e0!3m2!1spt-BR!2sbr!4v1784595927987!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+<button type="reset">Limpar</button>
+<button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
