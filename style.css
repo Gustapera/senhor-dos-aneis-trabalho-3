@@ -1,22 +1,99 @@
-#titulo_principal {
-    background-color: #DAA520;
+#titulo_principal{
+    background-color: #8B6F1E;
     color: white;
+    text-align: center;
+    border: 4px solid #5E4318;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 
-.titulo_secundario {
-    background-color: #228B22;
+.titulo_secundario{
+    background-color: #556B2F;
     color: white;
+    border: 2px solid #38491E;
+    border-radius: 8px;
+    padding: 8px;
 }
+
+.rodape{
+    text-align: center;
+}
+
+/* Topografia */
 
 body{
-    /*topografia CSS*/
-    background-color: rgb(0, 0, 0);/*cor de fundo*/
-    color: rgb(255, 255, 255); /*cor da fonte*/
-    font-family: "roboto" , sans-serif; /*fonte do texto*/
-    font-size: 16px;  /*tamanho da fonte - px/em/rem*/
-
+    background-color: rgb(245,242,232);
+    color: rgb(40,40,40);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
+/* Layout */
+
 #layout{
+    font-size: 1em;
     display: flex;
+    flex-direction: row;
+
+    font-style: normal;
+    line-height: 30px;
+    font-weight: 400;
+
+    text-transform: none;
+    text-decoration: none;
+
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    text-indent: 20px;
+    text-align: justify;
+
+    border: 4px solid rgb(139,111,30);
+    border-radius: 12px;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+article{
+    margin-right: 20px;
+}
+
+aside{
+    border: 3px solid rgb(139,111,30);
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+img{
+    border: 3px solid rgb(94,67,24);
+    border-radius: 10px;
+}
+
+nav{
+    margin-top: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+figure{
+    margin: 10px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+footer{
+    margin-top: 20px;
+    padding-top: 10px;
 }
